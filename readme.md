@@ -10,7 +10,7 @@ The reason I am putting this up here because it is an interesting problem.
 
 Clone the repository using this command:  
 ```
-git clone https://github.com/daabir/prefixCalculator.git
+git clone https://github.com/daabir/nodejs-prefixCalculator.git
 ```  
 Once it is cloned to your system, open the source directory in terminal and  
 run:  
