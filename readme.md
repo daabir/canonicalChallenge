@@ -16,7 +16,7 @@ Once it is cloned to your system, open the source directory in terminal and
 run:  
 ```
 npm install
-node index.js
+npm start
 ```  
 You can run the tests by using this command:  
 ```
