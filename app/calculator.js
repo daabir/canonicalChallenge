@@ -53,3 +53,33 @@ exports.calculate = function calculate(expression) {
     return stack[0];
   }
   
+
+//   // TODO: Define a function named evaluateReversePolishNotation that accepts an expression as a parameter
+// function evaluateReversePolishNotation(expression){
+//   // TODO: Initialize an empty array to act as the stack
+//   let stack = [];
+//   let tokens = expression.split(' ');
+//   // TODO: Split the expression into tokens and iterate over them
+//   for(let token of tokens){
+
+//       // TODO: If the token is an operator ('+', '-'), pop the top two elements from the stack for operation
+//       if (token === "+"){
+//           // TODO: Based on the operator, perform the appropriate operation and push the result back onto the stack
+//           let b = stack.pop();
+//           let a = stack.pop(); 
+//           stack.push(a + b);
+//       } else if(token === "-"){
+//           let b = stack.pop();
+//           let a = stack.pop();
+//           stack.push(a - b);
+//       } else{
+//           stack.push(parseInt(token));
+//       }
+//       // TODO: Otherwise, treat the token as an operand and push it onto the stack
+//   }
+//   // TODO: Return the top element of the stack as the result of the expression evaluation
+//   return stack[0];
+// }
+// Example usage
+// expression = "1 2 + 4 -"
+// console.log(evaluateReversePolishNotation(expression))  // Expected output: -1
